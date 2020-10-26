@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D016CD5252E70A800F2771E /* TeamsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D016CD4252E70A800F2771E /* TeamsListView.swift */; };
+		4D016CDE2530938B00F2771E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D016CDD2530938B00F2771E /* Utils.swift */; };
+		4D016CEE25371F9000F2771E /* TeamsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D016CED25371F8F00F2771E /* TeamsListInteractor.swift */; };
+		4D016CF32537228500F2771E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D016CF22537228500F2771E /* Errors.swift */; };
+		4D016CF82537269000F2771E /* TeamsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D016CF72537269000F2771E /* TeamsListPresenter.swift */; };
+		4D10883A252BB2B7007AE258 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D108839252BB2B7007AE258 /* DataSource.swift */; };
+		4D108846252BB2FE007AE258 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D108845252BB2FE007AE258 /* Team.swift */; };
+		4D10884B252BBBCE007AE258 /* TeamDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10884A252BBBCE007AE258 /* TeamDAO.swift */; };
+		4D108852252CE248007AE258 /* TeamsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D108851252CE248007AE258 /* TeamsTableViewCell.swift */; };
+		4D342D3D2540856D0031A1CF /* TestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D342D3C2540856D0031A1CF /* TestApi.swift */; };
+		4D342D4225409BFD0031A1CF /* TeamsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D342D4125409BFD0031A1CF /* TeamsAPI.swift */; };
+		4D342D4E2540AF5B0031A1CF /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D342D4D2540AF5B0031A1CF /* URLExtensions.swift */; };
+		4D3B5014253F28C200869A2B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B5013253F28C200869A2B /* Colors.swift */; };
+		4D80B20225462EEF00DEFFEE /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D80B20125462EEF00DEFFEE /* Fonts.swift */; };
 		4D8CA2DC25251F9700F95DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CA2DB25251F9700F95DBF /* AppDelegate.swift */; };
 		4D8CA2DE25251F9700F95DBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CA2DD25251F9700F95DBF /* SceneDelegate.swift */; };
-		4D8CA2E025251F9700F95DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CA2DF25251F9700F95DBF /* ViewController.swift */; };
+		4D8CA2E025251F9700F95DBF /* TeamsListViewController..swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CA2DF25251F9700F95DBF /* TeamsListViewController..swift */; };
 		4D8CA2E325251F9700F95DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CA2E125251F9700F95DBF /* Main.storyboard */; };
 		4D8CA2E525251F9800F95DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CA2E425251F9800F95DBF /* Assets.xcassets */; };
 		4D8CA2E825251F9800F95DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CA2E625251F9800F95DBF /* LaunchScreen.storyboard */; };
@@ -35,10 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D016CD4252E70A800F2771E /* TeamsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListView.swift; sourceTree = "<group>"; };
+		4D016CDD2530938B00F2771E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4D016CED25371F8F00F2771E /* TeamsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListInteractor.swift; sourceTree = "<group>"; };
+		4D016CF22537228500F2771E /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		4D016CF72537269000F2771E /* TeamsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListPresenter.swift; sourceTree = "<group>"; };
+		4D108839252BB2B7007AE258 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		4D108845252BB2FE007AE258 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		4D10884A252BBBCE007AE258 /* TeamDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDAO.swift; sourceTree = "<group>"; };
+		4D108851252CE248007AE258 /* TeamsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewCell.swift; sourceTree = "<group>"; };
+		4D342D3C2540856D0031A1CF /* TestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApi.swift; sourceTree = "<group>"; };
+		4D342D4125409BFD0031A1CF /* TeamsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsAPI.swift; sourceTree = "<group>"; };
+		4D342D4D2540AF5B0031A1CF /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
+		4D3B5013253F28C200869A2B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4D80B20125462EEF00DEFFEE /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		4D8CA2D825251F9700F95DBF /* Overwatch-tdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overwatch-tdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8CA2DB25251F9700F95DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D8CA2DD25251F9700F95DBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D8CA2DF25251F9700F95DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D8CA2DF25251F9700F95DBF /* TeamsListViewController..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListViewController..swift; sourceTree = "<group>"; };
 		4D8CA2E225251F9700F95DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D8CA2E425251F9800F95DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D8CA2E725251F9800F95DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +104,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D016CCD252E6FCA00F2771E /* Modulos */ = {
+			isa = PBXGroup;
+			children = (
+				4D016CDC2530936F00F2771E /* Utils */,
+				4D108850252CE1DC007AE258 /* TeamsList */,
+			);
+			path = Modulos;
+			sourceTree = "<group>";
+		};
+		4D016CDC2530936F00F2771E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4D016CDD2530938B00F2771E /* Utils.swift */,
+				4D016CF22537228500F2771E /* Errors.swift */,
+				4D3B5013253F28C200869A2B /* Colors.swift */,
+				4D80B20125462EEF00DEFFEE /* Fonts.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4D016CE52530946000F2771E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D016CD4252E70A800F2771E /* TeamsListView.swift */,
+				4D8CA2DF25251F9700F95DBF /* TeamsListViewController..swift */,
+				4D108851252CE248007AE258 /* TeamsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D016CE62534D0BA00F2771E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4D016CF72537269000F2771E /* TeamsListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4D016CE72534D0DF00F2771E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4D016CED25371F8F00F2771E /* TeamsListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4D016CE82534D0F600F2771E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		4D016CE92534D10900F2771E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		4D108837252BB299007AE258 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4D342D4C2540AF4B0031A1CF /* Utils */,
+				4D108842252BB2C5007AE258 /* API */,
+				4D108841252BB2BF007AE258 /* DAO */,
+				4D108839252BB2B7007AE258 /* DataSource.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4D108841252BB2BF007AE258 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				4D10884A252BBBCE007AE258 /* TeamDAO.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		4D108842252BB2C5007AE258 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4D342D4125409BFD0031A1CF /* TeamsAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4D108843252BB2D2007AE258 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4D108844252BB2E1007AE258 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		4D108844252BB2E1007AE258 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D108845252BB2FE007AE258 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D10884F252CE1D4007AE258 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				4D016CCD252E6FCA00F2771E /* Modulos */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		4D108850252CE1DC007AE258 /* TeamsList */ = {
+			isa = PBXGroup;
+			children = (
+				4D016CE52530946000F2771E /* View */,
+				4D016CE62534D0BA00F2771E /* Presenter */,
+				4D016CE72534D0DF00F2771E /* Interactor */,
+				4D016CE82534D0F600F2771E /* Entity */,
+				4D016CE92534D10900F2771E /* Router */,
+			);
+			path = TeamsList;
+			sourceTree = "<group>";
+		};
+		4D342D4C2540AF4B0031A1CF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4D342D4D2540AF5B0031A1CF /* URLExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		4D8CA2CF25251F9700F95DBF = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +258,11 @@
 		4D8CA2DA25251F9700F95DBF /* Overwatch-tdb */ = {
 			isa = PBXGroup;
 			children = (
+				4D10884F252CE1D4007AE258 /* APP */,
+				4D108843252BB2D2007AE258 /* Domain */,
+				4D108837252BB299007AE258 /* Data */,
 				4D8CA2DB25251F9700F95DBF /* AppDelegate.swift */,
 				4D8CA2DD25251F9700F95DBF /* SceneDelegate.swift */,
-				4D8CA2DF25251F9700F95DBF /* ViewController.swift */,
 				4D8CA2E125251F9700F95DBF /* Main.storyboard */,
 				4D8CA2E425251F9800F95DBF /* Assets.xcassets */,
 				4D8CA2E625251F9800F95DBF /* LaunchScreen.storyboard */,
@@ -115,6 +276,7 @@
 			children = (
 				4D8CA2F225251F9800F95DBF /* Overwatch_tdbTests.swift */,
 				4D8CA2F425251F9800F95DBF /* Info.plist */,
+				4D342D3C2540856D0031A1CF /* TestApi.swift */,
 			);
 			path = "Overwatch-tdbTests";
 			sourceTree = "<group>";
@@ -258,9 +420,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8CA2E025251F9700F95DBF /* ViewController.swift in Sources */,
+				4D80B20225462EEF00DEFFEE /* Fonts.swift in Sources */,
+				4D108846252BB2FE007AE258 /* Team.swift in Sources */,
+				4D108852252CE248007AE258 /* TeamsTableViewCell.swift in Sources */,
+				4D342D4225409BFD0031A1CF /* TeamsAPI.swift in Sources */,
+				4D016CEE25371F9000F2771E /* TeamsListInteractor.swift in Sources */,
+				4D3B5014253F28C200869A2B /* Colors.swift in Sources */,
+				4D8CA2E025251F9700F95DBF /* TeamsListViewController..swift in Sources */,
+				4D016CF32537228500F2771E /* Errors.swift in Sources */,
 				4D8CA2DC25251F9700F95DBF /* AppDelegate.swift in Sources */,
+				4D016CDE2530938B00F2771E /* Utils.swift in Sources */,
+				4D016CD5252E70A800F2771E /* TeamsListView.swift in Sources */,
+				4D342D4E2540AF5B0031A1CF /* URLExtensions.swift in Sources */,
+				4D10883A252BB2B7007AE258 /* DataSource.swift in Sources */,
+				4D016CF82537269000F2771E /* TeamsListPresenter.swift in Sources */,
 				4D8CA2DE25251F9700F95DBF /* SceneDelegate.swift in Sources */,
+				4D10884B252BBBCE007AE258 /* TeamDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D342D3D2540856D0031A1CF /* TestApi.swift in Sources */,
 				4D8CA2F325251F9800F95DBF /* Overwatch_tdbTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +613,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWDH6S87LF;
 				INFOPLIST_FILE = "Overwatch-tdb/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +632,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CWDH6S87LF;
 				INFOPLIST_FILE = "Overwatch-tdb/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
