@@ -8,13 +8,10 @@
 import UIKit
 
 class TeamsListViewController: UIViewController {
-    
-    
     //MARK: - Private Properties
-    
-    private let tableView = UITableView()
+    private let presenter = Presenter()
     private var myView = TeamsListView()
-    var dados:[Team]!
+   // var data:[Team]!
 
     
     //MARK: - Init
@@ -22,7 +19,8 @@ class TeamsListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view = myView
-        dados = DataSource().getTeams()
+       //data = presenter.getTeams()
+        myView.data = presenter.getTeams()
     }
     
     //MARK: - Private Methods

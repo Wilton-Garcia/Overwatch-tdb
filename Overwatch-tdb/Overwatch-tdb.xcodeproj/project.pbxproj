@@ -24,7 +24,6 @@
 		4D8CA2DC25251F9700F95DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CA2DB25251F9700F95DBF /* AppDelegate.swift */; };
 		4D8CA2DE25251F9700F95DBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CA2DD25251F9700F95DBF /* SceneDelegate.swift */; };
 		4D8CA2E025251F9700F95DBF /* TeamsListViewController..swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CA2DF25251F9700F95DBF /* TeamsListViewController..swift */; };
-		4D8CA2E325251F9700F95DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CA2E125251F9700F95DBF /* Main.storyboard */; };
 		4D8CA2E525251F9800F95DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CA2E425251F9800F95DBF /* Assets.xcassets */; };
 		4D8CA2E825251F9800F95DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CA2E625251F9800F95DBF /* LaunchScreen.storyboard */; };
 		4D8CA2F325251F9800F95DBF /* Overwatch_tdbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CA2F225251F9800F95DBF /* Overwatch_tdbTests.swift */; };
@@ -67,7 +66,6 @@
 		4D8CA2DB25251F9700F95DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D8CA2DD25251F9700F95DBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4D8CA2DF25251F9700F95DBF /* TeamsListViewController..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListViewController..swift; sourceTree = "<group>"; };
-		4D8CA2E225251F9700F95DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D8CA2E425251F9800F95DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D8CA2E725251F9800F95DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D8CA2E925251F9800F95DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,13 +102,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D016CCD252E6FCA00F2771E /* Modulos */ = {
+		4D016CCD252E6FCA00F2771E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 				4D016CDC2530936F00F2771E /* Utils */,
 				4D108850252CE1DC007AE258 /* TeamsList */,
 			);
-			path = Modulos;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		4D016CDC2530936F00F2771E /* Utils */ = {
@@ -210,7 +208,7 @@
 		4D10884F252CE1D4007AE258 /* APP */ = {
 			isa = PBXGroup;
 			children = (
-				4D016CCD252E6FCA00F2771E /* Modulos */,
+				4D016CCD252E6FCA00F2771E /* Modules */,
 			);
 			path = APP;
 			sourceTree = "<group>";
@@ -223,6 +221,29 @@
 				4D016CE72534D0DF00F2771E /* Interactor */,
 				4D016CE82534D0F600F2771E /* Entity */,
 				4D016CE92534D10900F2771E /* Router */,
+			);
+			path = TeamsList;
+			sourceTree = "<group>";
+		};
+		4D16B7A92549B68B005E1CF5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4D16B7AD2549B6B0005E1CF5 /* Modules */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4D16B7AD2549B6B0005E1CF5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4D16B7AE2549B76C005E1CF5 /* TeamsList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4D16B7AE2549B76C005E1CF5 /* TeamsList */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = TeamsList;
 			sourceTree = "<group>";
@@ -263,7 +284,6 @@
 				4D108837252BB299007AE258 /* Data */,
 				4D8CA2DB25251F9700F95DBF /* AppDelegate.swift */,
 				4D8CA2DD25251F9700F95DBF /* SceneDelegate.swift */,
-				4D8CA2E125251F9700F95DBF /* Main.storyboard */,
 				4D8CA2E425251F9800F95DBF /* Assets.xcassets */,
 				4D8CA2E625251F9800F95DBF /* LaunchScreen.storyboard */,
 				4D8CA2E925251F9800F95DBF /* Info.plist */,
@@ -274,6 +294,7 @@
 		4D8CA2F125251F9800F95DBF /* Overwatch-tdbTests */ = {
 			isa = PBXGroup;
 			children = (
+				4D16B7A92549B68B005E1CF5 /* App */,
 				4D8CA2F225251F9800F95DBF /* Overwatch_tdbTests.swift */,
 				4D8CA2F425251F9800F95DBF /* Info.plist */,
 				4D342D3C2540856D0031A1CF /* TestApi.swift */,
@@ -395,7 +416,6 @@
 			files = (
 				4D8CA2E825251F9800F95DBF /* LaunchScreen.storyboard in Resources */,
 				4D8CA2E525251F9800F95DBF /* Assets.xcassets in Resources */,
-				4D8CA2E325251F9700F95DBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,14 +492,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4D8CA2E125251F9700F95DBF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D8CA2E225251F9700F95DBF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D8CA2E625251F9800F95DBF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

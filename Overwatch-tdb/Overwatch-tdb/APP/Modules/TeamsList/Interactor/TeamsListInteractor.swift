@@ -11,11 +11,11 @@ class TeamsListInteractor{
     
     //MARK: - Private properties
     
-    private var dados:[Team]!
+    private var dados:[Team] = []
     
     //MARK: - Private Methods
     
-    private func loadData(){
+    func loadData(){
         dados = DataSource().getTeams()
     }
     
@@ -25,12 +25,8 @@ class TeamsListInteractor{
     }
     
     //Public Methods
-    public func returnData() throws -> [Team] {
-        if(!dados.isEmpty){
+    public func returnData() -> [Team] {
             return dados
-        }else{
-            throw Errors(message: "There not data avaliable")
-        }
     }
     
 }

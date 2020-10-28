@@ -7,10 +7,13 @@
 
 import UIKit
 
+
+
 final class TeamsListView: UIView {
     
     //MARK: - Private properties
-    private var data: [Team]! //To Remover
+    //private let teamListViewController = TeamsListViewController()
+    var data:[Team] = []
     
     private let viewBackground: UIView = {
         let viewBackground = UIView()
@@ -131,7 +134,6 @@ final class TeamsListView: UIView {
         self.init(frame:.zero)
         
         setupLayout()
-        data = DataSource().getTeams()
         tableTeamsList.dataSource = self
         tableTeamsList.delegate = self
     }
