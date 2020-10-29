@@ -12,6 +12,7 @@
 		4D016CEE25371F9000F2771E /* TeamsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D016CED25371F8F00F2771E /* TeamsListInteractor.swift */; };
 		4D016CF32537228500F2771E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D016CF22537228500F2771E /* Errors.swift */; };
 		4D016CF82537269000F2771E /* TeamsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D016CF72537269000F2771E /* TeamsListPresenter.swift */; };
+		4D0C06F3254B172800970F0A /* TeamsListVewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C06F2254B172800970F0A /* TeamsListVewControllerTest.swift */; };
 		4D10883A252BB2B7007AE258 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D108839252BB2B7007AE258 /* DataSource.swift */; };
 		4D108846252BB2FE007AE258 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D108845252BB2FE007AE258 /* Team.swift */; };
 		4D10884B252BBBCE007AE258 /* TeamDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D10884A252BBBCE007AE258 /* TeamDAO.swift */; };
@@ -53,6 +54,7 @@
 		4D016CED25371F8F00F2771E /* TeamsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListInteractor.swift; sourceTree = "<group>"; };
 		4D016CF22537228500F2771E /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		4D016CF72537269000F2771E /* TeamsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListPresenter.swift; sourceTree = "<group>"; };
+		4D0C06F2254B172800970F0A /* TeamsListVewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TeamsListVewControllerTest.swift; path = "Overwatch-tdbTests/TeamsListVewControllerTest.swift"; sourceTree = SOURCE_ROOT; };
 		4D108839252BB2B7007AE258 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		4D108845252BB2FE007AE258 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		4D10884A252BBBCE007AE258 /* TeamDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDAO.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 		4D16B7AE2549B76C005E1CF5 /* TeamsList */ = {
 			isa = PBXGroup;
 			children = (
+				4D0C06F2254B172800970F0A /* TeamsListVewControllerTest.swift */,
 			);
 			path = TeamsList;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0C06F3254B172800970F0A /* TeamsListVewControllerTest.swift in Sources */,
 				4D342D3D2540856D0031A1CF /* TestApi.swift in Sources */,
 				4D8CA2F325251F9800F95DBF /* Overwatch_tdbTests.swift in Sources */,
 			);
